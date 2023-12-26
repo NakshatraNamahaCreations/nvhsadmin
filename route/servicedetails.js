@@ -8,6 +8,9 @@ router.get(
   "/getbookingservicepagewise",
   servicedetailscontroller.getbookingservicepagewise
 );
-
+router.get(
+  "/getbookingservicelength",
+  servicedetailscontroller.getbookingservicelength
+);
 
 module.exports = router;

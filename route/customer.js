@@ -8,4 +8,8 @@ router.get(
   customercontroller.getcustomerdatapagewise
 );
 
+router.get(
+  "/gettotalcustomerlength",
+  customercontroller.gettotalcustomerlength
+);
 module.exports = router;

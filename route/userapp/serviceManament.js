@@ -19,6 +19,10 @@ router.get(
   ServiceManagemntController.getservicedetailsfindwithidsuper
 );
 
+router.get(
+  "/findwithidretunslots/:id",
+  ServiceManagemntController.findwithidretunslots
+);
 router.post(
   "/addservices",
   upload.any(),

@@ -64,7 +64,7 @@ const sPayment = require("./route/paymentgatway/servicePayment");
 const rating =require("./route/userapp/rating");
 const webbanner = require("./route/websitebanner");
 const exbanner =require("./route/userapp/exbanner");
-
+const customer =require("./route/customer")
 
 
 
@@ -79,7 +79,7 @@ const exbanner =require("./route/userapp/exbanner");
 app.use("/api", admin);
 app.use("/api", technician);
 app.use("/api", category);
-
+app.use("/api",customer)
 app.use("/api", vendor);
 app.use("/api", banner);
 
